@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@200;400&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Raleway:wght@200;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Aloha</title>
+</head>
+<body>
+    
+<!--Krijimi i headerit-->    
+<header>
+  <nav class="mynav">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-6 col-md-4 col-title">
+         <h3>Aloha</h3>
+        </div>
+        <div class="col-6 col-md-4 first-con">
+          <nav class="navbar navbar-expand-lg">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">MENS</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">WOMENS</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">BAGS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">HOME</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">SALE</a>
+                      </li>
+                </div>
+          </div>
+
+        <div class="col-6 col-md-4">
+          <div class="bin">
+            <img src="Images/navbin.png" alt="">
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!--Seksioni i pare-->
+
+<section class="photo" style="position: relative;">
+  
+  <div class="slide">
+    <button class="display-left" onclick="plusDivs(-1)">&#10094;</button>
+    <img class="mySlides" src="Images/base.png" alt="">
+    <img class="mySlides" src="Images/slide 1.png" alt="">
+    <img class="mySlides" src="Images/slide 2.png" alt="">
+    <button class="display-right" onclick="plusDivs(+1)">&#10095;</button>
+  </div>
+  <div class="collection">
+  <h4>NEW COLLECTION</h4>
+  <h1>Summer/Autumn 2015</h1>
+  <button class="shop-btn">SHOP NOW</button>
+  </div>
+  
+</section>
+
+<!--Seksioni i dyte-->
+
+<section class="only-text">
+  <div class="text">
+    <h2>Bespoke.<span class="great">Great.</span>Custom.<span class="hand">Hand-Crafted</span></h2>
+    <h5>Launch your online with <span class="aloha">Aloha.</span>This fully responsive and minimalist storefront is built for foolproof customization.Learn more.</h5>
+  </div>
+</section>
+
+<!--Seksioni i trete-->
+
+<section class="only-img">
+ <div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <img class="mens" src="Images/mens.png" alt="">
+      <h4 class="mens-text">MENS</h4>
+    </div>
+    <div class="col-md-6">
+      <div class="row">
+        <div class="col-md-6">
+          <img class="trands" src="Images/trands.png" alt="">
+          <h4 class="trand-text">TRANDS</h4>
+        </div>
+        <div class="col-md-6">
+          <img class="home" src="Images/home.png" alt="">
+          <h4 class="home-text">HOME</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="row">
+        <div class="col-md-6">
+          <img class="sale" src="Images/sale.png" alt="">
+          <h4 class="sale-text">SALE</h4>
+        </div>
+        <div class="col-md-6">
+          <img class="bags" src="Images/bags.png" alt="">
+          <h4 class="bags-text">BAGS</h4>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <img class="womens" src="Images/womens.png" alt="">
+      <h4 class="womens-text">WOMENS</h4>
+    </div>
+  </div>
+</div>
+
+</section>
+
+<!--Seksioni i katert-->
+
+<section class="myproducts">
+  <div class="section-title">
+    <h2 class="product-title"><span class="popular">Popular</span> Products</h2>
+  </div>
+
+  <div class="container con-one">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card">
+          <img class="card-img-top product1" src="Images/image1.png" alt="Card image cap">
+          <div class="card-body">
+            <div class="description-price">
+              <h5>DRESSES</h5>
+              <h4>Stretch Knit Wool Dress</h4>
+              <h5><span class="old-price">&#163 669.00</span> <span class="new-price">&#163 299.00</span></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <img class="card-img-top product2" src="Images/image2.png" alt="Card image cap">
+          <div class="card-body">
+            <div class="description-price">
+              <h5>SHIRT</h5>
+              <h4>Cotton Blue Shirt</h4>
+              <h5>&#163 209.00</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <img class="card-img-top product3" src="Images/image3.png" alt="Card image cap">
+          <div class="card-body">
+            <div class="description-price">
+              <h5>T-SHIRT</h5>
+              <h4>Emmett Cable T-Shirt</h4>
+              <h5>&#163 209.00</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <img class="card-img-top product4" src="Images/image4.png" alt="Card image cap">
+          <div class="card-body">
+            <div class="description-price">
+              <h5>DRESSES</h5>
+              <h4>Striped Stretch Dress</h4>
+              <h5>&#163 479.00</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card">
+          <img class="card-img-top product5" src="Images/image5.png" alt="Card image cap">
+          <div class="card-body">
+            <div class="description-price">
+              <h5>T-Shirt</h5>
+              <h4>Green Village T-Shirt</h4>
+              <h5>&#163 109.00</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <img class="card-img-top product6" src="Images/image6.png" alt="Card image cap">
+          <div class="card-body">
+            <div class="description-price">
+              <h5>BAGS</h5>
+              <h4>Blue Hipster Backpack</h4>
+              <h5>&#163 309.00</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <img class="card-img-top product7" src="Images/image7.png" alt="Card image cap">
+          <div class="card-body">
+            <div class="description-price">
+              <h5>DRESSES</h5>
+              <h4>Stretch Wool Dress</h4>
+              <h5><span class="old-price">&#163 799.00</span> <span class="new-price">&#163 299.00</span></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <img class="card-img-top product8" src="Images/image8.png" alt="Card image cap">
+          <div class="card-body">
+            <div class="description-price">
+              <h5>DRESSES</h5>
+              <h4>Blue Sexual Dress</h4>
+              <h5>&#163 329.00</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!--Seksioni i peste-->
+
+<section class="articles">
+   <div class="our-articles">
+    <h4>Our Latest <span class="my-articles">Articles</span></h4>
+   </div>
+
+   <div class="container">
+    <div class="row align-items-center">
+
+      <div class="col-6 col-md-4">
+        <img class="img9" src="Images/image9.png" alt="">
+        <div class="data1">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt sed in cum officiis, numquam perferendis consequuntur.</p>
+          <h5>May 27,2015</h5>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4">
+        <img class="img10" src="Images/image10.png" alt="">
+        <div class="data2">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt sed in cum officiis, numquam perferendis consequuntur.</p>
+          <h5>May 17,2015</h5>
+        </div>
+        
+      </div>
+
+      <div class="col-6 col-md-4">
+        <img class="img11" src="Images/image11.png" alt="">
+        <div class="data3">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt sed in cum officiis, numquam perferendis consequuntur.</p>
+          <h5>May 27,2015</h5>
+        </div>
+      </div>
+
+    </div>
+   </div>
+</section>
+
+<!---Seksioni i gjashte-->
+
+<section class="signup">
+  <div class="updates">
+    <h3><span class="sign">Signup for</span> Updates</h3>
+    <p>Lorem ipsum dolor sit amet  harum illo mollitia animi  quasi, fugit, illum libero atque, incidunt officiis et amet! Labore sequi rerum ratione laudantium voluptate cum.</p>
+  </div>
+  <div class="allinputs"> 
+    <input type="text" class="form-control email" placeholder="Your Email" aria-label="Your Email" aria-describedby="button-addon2">
+    <button class="btn btn-outline-secondary mysubcribebtn" type="button" id="button-addon2">Subscribe</button>
+  </div>
+</section>
+
+
+
+ <!--Seksioni i shtate-->
+
+ <footer class="all-info">
+  <div class="container mycontainer">
+    <div class="row">
+      <div class="col-md-6 main-info">
+       <h5>&copy;2015,Aloha Theme</h5>
+       <h5>Powered by ThemeForest PixelBuddha</h5>
+       <h5>438-793-2227, info@boxtheme.com</h5>
+       <h5><span class="location">USA, San Francisco</span> </h5>
+       <h5><span class="location"> 2575 De l'Avenir Blvd, Suite z, Laval(QC),H7S</span></h5>
+      </div>
+      <div class="col-md-6">
+        <div class="row align-items-center">
+          <div class="col-4 info">
+            <h5>Womens</h5>
+            <h5>Mens</h5>
+            <h5>Bags</h5>
+            <h5>Home</h5>
+            <h5>Sale</h5>
+          </div>
+          <div class="col-4 info">
+            <h5>Shipping rates</h5>
+            <h5>Return policy</h5>
+            <h5>About Us</h5>
+            <h5>Contact Us</h5>
+            <h5>Our Blog</h5>
+          </div>
+          <div class="col-4 info">
+            <h5><ion-icon name="logo-facebook"></ion-icon> Facebook</h5>
+            <h5><ion-icon name="logo-twitter"></ion-icon> Twitter</h5>
+            <h5><ion-icon name="logo-instagram"></ion-icon> Instagram</h5>
+            <h5><ion-icon name="logo-pinterest"></ion-icon> Pinterest</h5>
+            <h5><ion-icon name="logo-google"></ion-icon> Google</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ </footer>
+
+
+
+
+
+
+
+ <!--Krijojme scriptin per pjesen e fotove te seksionit te pare-->
+
+ <script>
+   var slideIndex = 1;
+  showDivs(slideIndex);
+  
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+  
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1} 
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    x[slideIndex-1].style.display = "block";  
+  }
+ </script>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>

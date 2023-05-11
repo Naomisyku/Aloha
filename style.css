@@ -1,0 +1,872 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #fff;
+    font-family: Raleway;
+}
+
+/*Stilizimet e headerit*/
+
+.col-title h3{
+    font-family: Dancing Script;
+    font-size: 3rem;
+}
+
+.nav-link{
+    font-family: Raleway SemiBold;
+    color: black;
+}
+
+.bin{
+    display: flex;
+    justify-content: right;
+}
+
+
+/*Stilizimet e seksionit 1*/
+
+.mySlides{
+    width: 100%;
+    height: 40%;
+   
+}
+
+.collection{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    color: #fff;
+}
+
+.collection h4{
+    padding-left: 20%;
+}
+
+.collection h1{
+    font-family: Playfair;
+    font-weight: 100;
+}
+
+.shop-btn{
+    margin-left: 27%;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgba(83, 81, 81, 0.719);
+    color: #fff;
+}
+
+/*Stilizimet e seksionit 2*/
+
+.only-text{
+    margin: 7%;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text h2{
+    font-family: Playfair Display Bold;
+    font-weight: 600;
+}
+
+.great{
+    font-style: italic;
+    font-weight: 100;
+}
+
+.hand{
+    font-style: italic;
+    font-weight: 100;
+}
+
+.text h5{
+    font-family: Raleway Medium;
+    font-size: 1rem;
+}
+
+.aloha{
+    color: red;
+    text-decoration-line: underline;
+}
+
+/*Stilizimet e seksionit 3*/
+
+.mens{
+    width: 100%;
+    height: 97%;
+}
+
+.mens-text{
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    color: white;
+}
+
+.trands{
+    width: 105%;
+    height: 97%;
+}
+
+.trand-text{
+    position: absolute;
+    top: 40%;
+    left: 36%;
+    color:white;
+}
+
+.home{
+    width: 105%;
+    height: 97%;
+}
+
+.home-text{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    color: white;
+}
+
+.sale{
+    width: 105%;
+    height: 97%;
+}
+
+.sale-text{
+    position: absolute;
+    top: 37%;
+    left: 40%;
+    color: #fff;
+}
+
+.bags{
+     width: 100%;
+     height: 97%;
+}
+
+.bags-text{
+    position: absolute;
+    top: 37%;
+    left: 40% ;
+    color: #fff;
+}
+
+.womens{
+    width: 102%;
+    height: 97%;
+}
+
+.womens-text{
+    position: absolute;
+    top: 37%;
+    left: 40%;
+    color: #fff;
+}
+
+/*Stilizimet e seksionit 4*/
+
+.section-title{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+.popular{
+    font-family: Playfair;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.product-title{
+    font-weight: bold;
+}
+
+.con-one{
+    margin-top: 3%;
+}
+
+.product1{
+    width: 60%;
+}
+
+.product2{
+    width: 60%;
+}
+
+.product3{
+    width: 64.5%;
+}
+
+.product4{
+    width: 40%;
+}
+
+.product5{
+    width: 60%;
+}
+
+.product6{
+    width: 46%;
+}
+
+.product7{
+    width: 41.5%;
+}
+
+.product8{
+    width: 41.5%;
+}
+
+.description-price h5{
+    font-size: 0.8rem;
+    color: #b0ababbe;
+}
+
+.description-price h4{
+    font-size: 1rem;
+}
+
+.old-price{
+    text-decoration: line-through;
+}
+
+.new-price{
+    color: red;
+}
+
+/*Stilizimet e seksionit 5*/
+
+.our-articles{
+    display: flex;
+    justify-content: center;
+    margin: 3%;
+    background-color: rgba(73, 71, 71, 0.088);
+}
+
+.our-articles h4{
+    font-style: italic;
+}
+
+.my-articles{
+    font-family: Playfair;
+    font-weight: bold;
+}
+
+.data1{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: #fff;
+}
+
+.data1 h5{
+    font-family: Playfair;
+    font-size: 0.8rem;
+}
+
+.data1 p{
+    font-size: 0.9rem;
+}
+
+.data2{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: #fff;
+}
+
+.data2 h5{
+    font-family: Playfair;
+    font-size: 0.8rem;
+}
+
+.data2 p{
+    font-size: 0.9rem;
+}
+
+.data3{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: #fff;
+}
+
+.data3 h5{
+    font-family: Playfair;
+    font-size: 0.8rem;
+}
+
+.data3 p{
+    font-size: 0.9rem;
+}
+
+.img9{
+    width: 100%;
+}
+
+.img10{
+    width: 100%;
+}
+
+.img11{
+    width: 100%;
+}
+
+/*Stilizimet e seksionit 6*/
+
+.signup{
+    margin-top: 2%;
+    background-color:  rgba(73, 71, 71, 0.088);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.updates{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3%;
+}
+
+.updates h3{
+    font-weight: bolder;
+}
+
+.sign{
+    font-family: Playfair;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.allinputs{
+    width: 29%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+.mysubcribebtn{
+    background-color: rgb(42, 41, 41) !important;
+    color: #fff !important;
+    font-family: Raleway;
+    border: none;
+    border-radius: 50px;
+    margin-left: -7%;
+    padding: 5px 15px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+}
+
+.email{
+    border: none;
+    border-radius: 50px;
+    padding: 14px 225px 14px 14px;
+}
+
+/*Stilizimet e footerit*/
+
+.all-info{
+    margin: 1%;
+    background-color: rgba(20, 19, 19, 0.966);
+    color: #fff;
+}
+
+.main-info h5{
+    font-size: 0.9rem;
+}
+
+.info h5{
+    font-size: 0.9rem;
+}
+
+.location{
+    color: rgba(152, 145, 145, 0.484);
+}
+
+.mycontainer{
+    padding: 2%;
+}
+
+/*ndryshimet per te bere website responsive*/
+
+@media only screen and (max-width: 1200px) {
+
+    /*Stilizimet e seksionit 4*/
+
+     .product1{
+        width: 60.3%;
+    }
+
+    .product2{
+        width: 60.3%;
+    }
+
+    .product3{
+        width: 64.5%;
+    }
+    
+    .product4{
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+    /*Stilizimet e seksionit 1*/
+
+    .collection{
+        position: absolute;
+        top: 60%;
+        left: 35%;
+    }
+
+
+    /*Stilizimet e seksionit 4*/
+
+    .product1{
+        width: 51%;
+    }
+    
+   .product2{
+         width: 60%;
+   }
+
+   .product6{
+      width: 39%;
+   }
+
+    
+}
+
+@media only screen and (max-width: 768px) {
+
+    /*Stilizimet e seksionit 1*/
+
+    .collection{
+        position: absolute;
+        top: 48%;
+        left: 33%;
+    }
+
+    /*Stilizimet e seksionit 4*/
+
+    .product1{
+        width: 60%;
+    }
+
+    .product6{
+        width: 46%;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+
+    /*Stilizimet e seksionit 1*/
+
+    .collection{
+        position: absolute;
+        top: 43%;
+        left: 28%;
+    }
+
+    .collection h4{
+        font-size: 1rem;
+    }
+    
+    .collection h1{
+       font-size: 1.9rem;
+    }
+    
+    .shop-btn{
+        padding: 5px 4px;
+        font-size: 0.8rem;
+    } 
+    
+    /*Stilizimet e seksionit 2*/
+
+     .text h2{
+        font-size: 1.5rem;
+    }
+
+    .text h5{
+        font-size: 1rem;
+    } 
+
+    /*Stilizimet e seksionit 3*/
+
+    .mens{
+        width: 100%;
+        height: 80%;
+    }
+    
+    .mens-text{
+        top: 45%;
+        left: 40%;
+        color: white;
+    }
+    
+    .trands{
+        width: 100%;
+        height: 90%;
+    }
+    
+    .trand-text{
+        top: 40%;
+        left: 37%;
+    }
+    
+    .home{
+        width: 100%;
+        height: 90%;
+    }
+    
+    .home-text{
+        top: 40%;
+        left: 40%;
+    }
+    
+    .sale{
+        width: 100%;
+        height: 90%;
+    }
+    
+    .sale-text{
+        top: 40%;
+        left: 40%;
+    }
+    
+    .bags{
+         width: 100%;
+         height: 90%;
+    }
+    
+    .bags-text{
+        top: 44%;
+        left: 40%;
+    }
+    
+    .womens{
+        width: 100%;
+        height: 97%;
+    }
+    
+    .womens-text{
+        top: 44%;
+        left: 40%;
+    } 
+    
+    /*Stilizimet e seksionit 4*/
+
+     .section-title h2{
+        font-size: 1.7rem;
+    }
+
+    .product1{
+        width: 30%;
+    }
+    
+    .product2{
+        width: 30%;
+    }
+    
+    .product3{
+        width: 30%;
+    }
+    
+    .product4{
+        width: 28%;
+    }
+    
+    .product5{
+        width: 30%;
+    }
+    
+    .product6{
+        width: 27%;
+    }
+    
+    .product7{
+        width: 28%;
+    }
+    
+    .product8{
+        width: 28%;
+    } 
+
+    /*Stilizimet e seksionit 5*/
+
+     .our-articles h4{
+        font-size: 1.4rem;
+    }
+
+    .img11{
+        display: none;
+    }
+
+    .data3{
+        visibility: hidden;
+    } 
+
+    /*Stilizimet e seksionit 6*/
+
+    .updates h3{
+        font-size: 1.4rem;
+    }
+
+    .updates p{
+        font-size: 0.7rem;
+    } 
+
+    /*Stilizimet e footerit*/
+
+     .main-info h5{
+        font-size: 0.8rem;
+    }
+
+    .info h5{
+        font-size: 0.7rem;
+    }
+} 
+
+@media only screen and (max-width: 480px) {
+
+    /*Stilizimet e seksionit 3*/
+
+    .mens{
+        width: 90%;
+        height: 80%;
+    }
+    
+    .mens-text{
+        top: 45%;
+        left: 40%;
+        color: white;
+    }
+    
+    .trands{
+        width: 90%;
+        height: 80%;
+    }
+    
+    .trand-text{
+        top: 40%;
+        left: 37%;
+    }
+    
+    .home{
+        width: 90%;
+        height: 80%;
+    }
+    
+    .home-text{
+        top: 40%;
+        left: 40%;
+    }
+    
+    .sale{
+        width: 90%;
+        height: 80%;
+    }
+    
+    .sale-text{
+        top: 40%;
+        left: 40%;
+    }
+    
+    .bags{
+         width: 90%;
+         height: 80%;
+    }
+    
+    .bags-text{
+        top: 44%;
+        left: 40%;
+    }
+    
+    .womens{
+        width: 90%;
+        height: 97%;
+    }
+    
+    .womens-text{
+        top: 44%;
+        left: 40%;
+    }
+
+    /*Stilizimet e seksionit 6*/
+
+    .allinputs{
+        width: 50%;
+        margin-bottom: 3%;
+    }
+    
+    .mysubcribebtn{
+        
+        border-radius: 50px;
+        margin-left: -39%;
+        padding: 5px 15px;
+        height: 45px;
+        margin-top: 3px;
+    }
+    
+}
+
+@media only screen and (max-width: 480px) {
+
+    /*Stilizimet e seksionit 1*/
+
+    .collection{
+        top: 33%;
+        left: 19%;
+    }
+
+    /*Stilizimet e seksionit 3*/
+
+    .mens{
+        width: 80%;
+        height: 80%;
+    }
+    
+    .mens-text{
+        top: 30%;
+        left: 28%;
+    }
+    
+    .trands{
+        width: 80%;
+        height: 80%;
+    }
+    
+    .trand-text{
+        top: 30%;
+        left: 32%;
+    }
+    
+    .home{
+        width: 80%;
+        height: 80%;
+    }
+    
+    .home-text{
+        top: 30%;
+        left: 33%;
+    }
+    
+    .sale{
+        width: 80%;
+        height: 80%;
+    }
+    
+    .sale-text{
+        top: 30%;
+        left: 30%;
+    }
+    
+    .bags{
+         width: 80%;
+         height: 80%;
+    }
+    
+    .bags-text{
+        top: 30%;
+        left: 30%;
+    }
+    
+    .womens{
+        width: 80%;
+        height: 97%;
+    }
+    
+    .womens-text{
+        top: 34%;
+        left: 30%;
+    }
+
+    /*Stilizimet e seksionit 4*/
+
+    .product1{
+        width: 24%;
+    }
+    
+    .product2{
+        width: 24%;
+    }
+    
+    .product3{
+        width: 24%;
+    }
+    
+    .product4{
+        width: 24%;
+    }
+    
+    .product5{
+        width: 30%;
+    }
+    
+    .product6{
+        width: 24%;
+    }
+    
+    .product7{
+        width: 28%;
+    }
+    
+    .product8{
+        width: 28%;
+    } 
+
+    .description-price h5{
+        font-size: 0,9rem;
+    }
+
+    .description-price h4{
+        font-size: 0.8rem;
+    }
+
+    /*Stilizimet e seksionit 5*/
+
+    .data1{
+        visibility: hidden;
+    }
+
+    .data2{
+        visibility: hidden;
+    }
+
+    /*Stilizimet e seksionit 6*/
+
+    .allinputs{
+        width: 48%;
+        margin-bottom: 3%;
+    }
+    
+    .mysubcribebtn{
+        
+        border-radius: 50px;
+        margin-left: -50%;
+        padding: 5px 12px;
+        height: 45px;
+        margin-top: 3px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    
+    /*Stilizimet e seksionit 1*/ /*Kontrolloje me vajzat*/
+
+    /* .collection{
+        top: 30% !important;
+    } */
+}
